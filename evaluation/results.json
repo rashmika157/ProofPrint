@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-05T19:07:32.155811+00:00",
+  "text": {
+    "labels": [
+      "human",
+      "ai"
+    ],
+    "sample_count": 6,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "per_class": {
+      "human": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ai": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "images": {
+    "labels": [
+      "real",
+      "ai_generated",
+      "manipulated"
+    ],
+    "sample_count": 6,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "per_class": {
+      "real": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ai_generated": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "manipulated": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "api": {
+    "checks": {
+      "valid_text": true,
+      "valid_image": true,
+      "missing_input": true,
+      "multiple_inputs": true,
+      "unsupported_type": true,
+      "invalid_image": true
+    },
+    "passed": 6,
+    "total": 6
+  }
+}
