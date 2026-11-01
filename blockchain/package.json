@@ -1,0 +1,19 @@
+{
+  "name": "proofprint-blockchain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "service:test": "hardhat run scripts/test-service.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "hardhat": "^3.19.0"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
